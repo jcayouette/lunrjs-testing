@@ -97,10 +97,10 @@ content:
   sources:
 
   # Uncomment to build from your local git clone
-  - url: .
+  #- url: .
 
   # Uncomment to build from the remote github repository.
-  #- url: https://jcayouette.github.io/lunrjs-testing/
+  - url: https://jcayouette.github.io/lunrjs-testing/
 
     # To build locally ensure you have your current local branch listed.
     branches:
