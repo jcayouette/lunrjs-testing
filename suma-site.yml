@@ -100,7 +100,7 @@ content:
   #- url: .
 
   # Uncomment to build from the remote github repository.
-  - url: https://jcayouette.github.io/lunrjs-testing
+  - url: https://github.com/jcayouette/lunrjs-testing
 
     # To build locally ensure you have your current local branch listed.
     branches:
