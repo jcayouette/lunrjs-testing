@@ -1,4 +1,4 @@
-.navbar-brand .navbar-item + .navbar-item {
+/* .navbar-brand .navbar-item + .navbar-item {
   -ms-flex-positive: 1;
   -webkit-box-flex: 1;
   flex-grow: 1;
@@ -52,6 +52,8 @@
     width: 200px;
   }
 }
+
+*/
 
 /* Font Awesome 5 Admonition Support */
 .doc .admonitionblock .icon {
