@@ -116,3 +116,34 @@
   background-color: rgba(69, 142, 225, 0.05);
 }
 
+/* responsive settings */
+@media screen and (min-width: 769px) {
+  #search-input {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-brand {
+    -ms-flex-positive: 1;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+  }
+
+  .navbar-menu {
+    -ms-flex-positive: 0;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand .navbar-item + .navbar-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .search-result-dataset .search-result-dropdown-menu {
+    min-width: calc(100vw - 2.75rem) !important;
+  }
+}
